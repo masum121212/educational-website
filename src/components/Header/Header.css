@@ -1,0 +1,41 @@
+.header {
+  text-align: center;
+  font-style: italic;
+}
+.header nav {
+  background-color: black;
+  line-height: 50px;
+}
+.header nav a {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.header nav a:hover {
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.input {
+  border: 1px solid black;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px 0px 0px 5px;
+}
+.btn-search {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-search:hover {
+  background-color: rgb(77, 76, 76);
+  border-radius: 5px;
+}
