@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# This project was created by
 
-This project was [react app and bootstrap5](https://github.com/facebook/create-react-app).
+- [bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
+
+- [Css3](https://www.w3schools.com/css/).
+
+- [React]
 
 ## live site
 

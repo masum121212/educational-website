@@ -3,7 +3,7 @@ import './Course.css'
 const Course = (props) => {
     const {name, price, imag,author} = props.course;
     return (
-        <div className="col">
+        <div className="col my-5">
                 <div className="card h-100">
                         <img src={imag} className="card-img-top" alt="..."/>
                     <div className="card-body">
