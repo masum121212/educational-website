@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="bg-dark mx-auto">
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 mx-auto text-light p-5">
                 <div className="col">
-                    <h5 className="fw-bold"><i className="fas fa-graduation-cap text-info"></i> <span className="text-primary">Online</span><span className="text-success">Edu</span></h5>
+                    <h5 className="fw-bold"><i className="fas fa-user-graduate text-info"></i> <span className="text-primary">Online</span><span className="text-success">Edu</span></h5>
                     <hr />
                     <p className="text-light">to help improve your skill understanding, no matter where life takes you and to help boost your confidence in understanding your personal skills </p>
                
