@@ -39,6 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <small className="text-light">copyright ©2021OnlineEdu</small>
+            <h1>..</h1>
         </div>
     );
 };
