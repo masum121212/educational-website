@@ -1,19 +1,19 @@
 import React from 'react';
-
+import './Course.css'
 const Course = (props) => {
     const {name, price, imag,author} = props.course;
     return (
-        <div className="course col w-200 h-200">
-                <div className="card shadow p-3 mb-5 bg-body rounded">
+        <div className="col">
+                <div className="card h-100">
                         <img src={imag} className="card-img-top" alt="..."/>
-                        <hr />
                     <div className="card-body">
-                        <h1 className="card-title fw-bold">{name}</h1>
+                        <h1 className="card-title fw-bold text-start">{name}</h1>
                         
-                        <h4 className="card-text fw-bold">${price}</h4>
-                        <code className="card-text"><strong>Author : {author}</strong></code>
+                        <h4 className="card-text fw-bold text-start">${price}</h4>
+                        <p className="card-text text-start"><strong>Author : {author}</strong></p>
+                    
                     </div>
-                    <button className="btn btn-primary">Enroll Now <i className="fas fa-arrow-right"></i></button>
+                    <button className="btn btn-success">Enroll Now <i className="fas fa-arrow-right"></i></button>
                 </div>
         </div>
     );

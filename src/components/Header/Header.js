@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid p-3 text-white">
-          <h2 className="navbar-brand fw-bold fs-1"><i className="fas fa-graduation-cap text-light"></i> <span className="text-primary">Online</span><span className="text-success">Edu</span></h2>
+          <h2 className="navbar-brand fw-bold fs-1"><i className="fas fa-graduation-cap text-info"></i> <span className="text-primary">Online</span><span className="text-success">Edu</span></h2>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,13 +16,13 @@ const Header = () => {
                 <Link className="nav-link active text-light fw-bold" aria-current="page" to="/home">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active text-light fw-bold" to="/service">Our Courses</Link>
+                <Link className="nav-link active text-light fw-bold" to="/service">Service</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active text-light fw-bold" to="/about">About Us</Link>
+                <Link className="nav-link active text-light fw-bold" to="/about">About</Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link active text-light fw-bold" to="/contact">Contact Us</Link>
+              <Link className="nav-link active text-light fw-bold" to="/contact">Contact</Link>
               </li>
               
             </ul>

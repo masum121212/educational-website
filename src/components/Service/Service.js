@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Course from '../Course/Course';
+import DataLoad from '../DataLoad';
 import './Service.css'
 
 const Service = () => {
-    const [services, setServices] = useState([]);
+    const [services, setServices] = DataLoad([]);
     
-    useEffect(() => {
-        fetch('./tools.json')
-        .then(res => res.json())
-        .then(data => setServices(data));
-    }, [])
+    // useEffect(() => {
+    //     fetch('./tools.json')
+    //     .then(res => res.json())
+    //     .then(data => setServices(data));
+    // }, [])
     return (
-        
-            <div className="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div className="container m-5 mx-auto">
+            <h1 className="fw-bold fs-1"><span className="text-primary">Most</span> <span className="text-light">Popular</span> <span className="text-success">Courses</span></h1>
+            <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5 mx-auto">
             
             {
                 services.map(course => <Course
@@ -21,10 +23,12 @@ const Service = () => {
                 ></Course>)
             }
         </div>
+        </div>
     
         
-        
+         
     );
+    
 };
 
 export default Service;
